@@ -1,0 +1,43 @@
+body {
+    background-image: url(images/peaceful-morning-at-bohinj-lake-PTWS95T.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.grid {
+    width: 450px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    background-color: rgba(135, 206, 250, 0.5);
+    grid-template-rows: repeat(5, 100px);
+    grid-template-columns: repeat(4, 100px);
+    justify-content: space-evenly;
+    align-content: space-around
+    /*grid-gap: 10px 10px;
+    align-items: center;
+    justify-items: center;*/
+}
+
+.screen {
+    grid-area: 1/1/2/span 4;
+    background-color: rgba(135, 206, 250, 0.3);
+}
+
+.item {
+    padding: 40px 40px;
+    box-shadow: 4px;
+    z-index: 5;
+}
+
+.one {
+    background-color: rgba(95, 29, 40, 0.3);
+}
+
+.two {
+    background-color: rgba(15, 44, 92, 0.3);
+}
