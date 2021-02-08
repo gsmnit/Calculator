@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1>CalcuLATOR</h1>
+    <script>
+        let firstNum = prompt("enter the firstnumber");
+        firstNum = Number(firstNum);
+        //console.log(typeof firstNum);
+        let operation = prompt("choose the operation + - * /");
+        let secondNum = Number(prompt("enter the secondnumber"));
+        switch (operation) {
+            case "+":
+                console.log(firstNum + secondNum);
+                break;
+            case "-":
+                console.log(firstNum - secondNum);
+                break;
+            case "*":
+                console.log(firstNum * secondNum);
+                break;
+            case "/":
+                console.log(firstNum / secondNum);
+        }
+    </script>
+</body>
+
+</html>
